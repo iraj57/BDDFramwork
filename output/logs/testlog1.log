@@ -1,0 +1,58 @@
+2023-03-01 10:01:59,303 [main] INFO logger_File - user is on retail website
+2023-03-01 10:01:59,308 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:01:59,486 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:01:59,765 [main] INFO logger_File - user entered email phantom.test@gmail.com and password Tek@12345
+2023-03-01 10:01:59,858 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:02:00,320 [main] INFO logger_File - user clicked on Account option
+2023-03-01 10:02:00,474 [main] INFO logger_File - user clicked on Add address option
+2023-03-01 10:17:12,072 [main] INFO logger_File - user is on retail website
+2023-03-01 10:17:12,076 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:17:12,208 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:17:12,469 [main] INFO logger_File - user entered email phantom.test@gmail.com and password Tek@12345
+2023-03-01 10:17:12,546 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:17:13,522 [main] INFO logger_File - user clicked on Account option
+2023-03-01 10:17:13,701 [main] INFO logger_File - user clicked on Add address option
+2023-03-01 10:42:11,391 [main] INFO logger_File - user is on retail website
+2023-03-01 10:42:11,395 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:42:11,529 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:42:11,776 [main] INFO logger_File - user entered email phantom.test@gmail.com and password Tek@12345
+2023-03-01 10:42:11,851 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:42:46,564 [main] INFO logger_File - user is on retail website
+2023-03-01 10:42:46,569 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:42:46,696 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:42:46,989 [main] INFO logger_File - user entered email phantom.test@gmail.com and password Tek@12345
+2023-03-01 10:42:47,076 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:45:54,790 [main] INFO logger_File - user is on retail website
+2023-03-01 10:45:54,795 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:45:54,971 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:45:55,231 [main] INFO logger_File - user entered email phantom.test@gmail.com and password Tek@12345
+2023-03-01 10:45:55,306 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:46:30,323 [main] INFO logger_File - user is on retail website
+2023-03-01 10:46:30,327 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:46:30,455 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:46:30,742 [main] INFO logger_File - user entered email phantom.test@gmail.com and password Tek@12345
+2023-03-01 10:46:30,822 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:54:09,112 [main] INFO logger_File - user is on retail website
+2023-03-01 10:54:09,117 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:54:09,269 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:54:09,519 [main] INFO logger_File - user entered email irajs64@gmail.com and password Omaha@123
+2023-03-01 10:54:09,600 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:54:10,239 [main] INFO logger_File - user clicked on Account option
+2023-03-01 10:55:23,626 [main] INFO logger_File - user is on retail website
+2023-03-01 10:55:23,631 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 10:55:23,776 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 10:55:24,032 [main] INFO logger_File - user entered email irajs64@gmail.com and password Omaha@123
+2023-03-01 10:55:24,108 [main] INFO logger_File - user clicked on login button
+2023-03-01 10:55:24,582 [main] INFO logger_File - user clicked on Account option
+2023-03-01 10:55:24,746 [main] INFO logger_File - user clicked on Add address option
+2023-03-01 10:55:25,877 [main] INFO logger_File - user filled the new address form with information provided in data table
+2023-03-01 10:55:25,965 [main] INFO logger_File - user clicked on Add your Address button
+2023-03-01 11:02:00,544 [main] INFO logger_File - user is on retail website
+2023-03-01 11:02:00,549 [main] INFO logger_File - Actual Title React App Equals  ExpectedTitle React App
+2023-03-01 11:02:00,718 [main] INFO logger_File - User clicked on Sign in Option
+2023-03-01 11:02:00,959 [main] INFO logger_File - user entered email irajs64@gmail.com and password Omaha@123
+2023-03-01 11:02:01,045 [main] INFO logger_File - user clicked on login button
+2023-03-01 11:02:01,674 [main] INFO logger_File - user clicked on Account option
+2023-03-01 11:02:01,815 [main] INFO logger_File - user clicked on Add address option
+2023-03-01 11:02:02,969 [main] INFO logger_File - user filled the new address form with information provided in data table
+2023-03-01 11:02:03,041 [main] INFO logger_File - user clicked on Add your Address button
