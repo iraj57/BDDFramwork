@@ -6,10 +6,10 @@ import java.util.Map;
 import org.junit.Assert;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import tek.sdet.framework.pages.POMFactory;
+import tek.sdet.framework.utilities.DataGeneratorUtility;
 import tek.sdet.framework.utilities.commonUtility;
 
 
@@ -46,9 +46,18 @@ public class SignInSteps extends commonUtility {
 		click(factory.signInPage().createNewAccountButton);
 		logger.info("user clicked on Create New Account button");
 	
-	
-
 	}
+	@When("User fill the signUp information with below data")
+	public void userFillTheSignUpInformationWithBelowData(DataTable dataTable) {
+	List<Map<String, String>> signUpInformation = dataTable.asMaps(String.class, String.class);
+	sendText(factory.signInPage().signUpNameField,DataGeneratorUtility.data(signUpInformation.get(0).get("name")));
+	sendText(factory.signInPage().signUpEmailField,DataGeneratorUtility.data(signUpInformation.get(0).get("email")));
+	sendText(factory.signInPage().signUpPasswordField, signUpInformation.get(0).get("password"));
+	sendText(factory.signInPage().signUpConfirmPassField,signUpInformation.get(0).get("confirmPassword"));
+	logger.info("user filled the signUp information form");
+	}	
+
+	
 	@When("User click on SignUp button")
 	public void userClickOnSignUpButton() {
 		click(factory.signInPage().signUpFormButton);

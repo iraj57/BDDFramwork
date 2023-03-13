@@ -7,8 +7,9 @@ import java.util.List;
 import org.junit.Assert;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
+
 import tek.sdet.framework.pages.POMFactory;
 import tek.sdet.framework.utilities.DataGeneratorUtility;
 import tek.sdet.framework.utilities.commonUtility;
@@ -25,9 +26,9 @@ public class RetailAccountSteps extends commonUtility {
 	}
 	@When("User update Name {string} and Phone {string}")
 	public void userUpdateNameAndPhone(String nameValue, String phoneValue) {
-		clearTextUsingSendKeys(factory.accountPage().profileNameInputField);
+	clearTextUsingSendKeys(factory.accountPage().profileNameInputField);
 		sendText(factory.accountPage().profileNameInputField, nameValue);
-		clearTextUsingSendKeys(factory.accountPage().profilePhoneNumberField);
+	clearTextUsingSendKeys(factory.accountPage().profilePhoneNumberField);
 		sendText(factory.accountPage().profilePhoneNumberField, phoneValue);
 		logger.info("user updated Name and Phone values ");
 	}

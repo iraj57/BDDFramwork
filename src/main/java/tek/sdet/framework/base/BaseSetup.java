@@ -59,7 +59,7 @@ public class BaseSetup {
 			browser = new FireFoxBrowser();
 			webDriver = browser.openBrowser(url);
 			break;
-		case "edge":
+		case "safari":
 			browser = new EdgeBrowser();
 			webDriver = browser.openBrowser(url);
 			break;

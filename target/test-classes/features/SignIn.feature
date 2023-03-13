@@ -18,7 +18,6 @@ Feature: TEK Retail Application SignIn feature
 
     Examples: 
       | email                     | password  |
-      | transformers@tekschool.us | Tek@12345 |
       | irajs64@gmail.com   			| Omaha@123 |
 
 	@registerTest
