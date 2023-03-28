@@ -80,8 +80,8 @@ public class commonUtility extends BaseSetup {
         executor.executeScript("arguments[0].value='" + value + "';", ele);
     }
 	
-    public void clearTextUsingSendKeys(WebElement toClear) {
-        toClear.sendKeys(Keys.CONTROL + "a");
+   public void clearTextUsingSendKeys(WebElement toClear) {
+       toClear.sendKeys(Keys.CONTROL + "a");
         toClear.sendKeys(Keys.DELETE);
     }
     

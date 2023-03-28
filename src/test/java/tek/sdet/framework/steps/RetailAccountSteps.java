@@ -25,10 +25,13 @@ public class RetailAccountSteps extends commonUtility {
 		logger.info("user clicked on Account option");
 	}
 	@When("User update Name {string} and Phone {string}")
-	public void userUpdateNameAndPhone(String nameValue, String phoneValue) {
+	public void userUpdateNameAndPhone(String nameValue, String phoneValue) throws InterruptedException {
+		
 	clearTextUsingSendKeys(factory.accountPage().profileNameInputField);
+	Thread.sleep(2000);
 		sendText(factory.accountPage().profileNameInputField, nameValue);
 	clearTextUsingSendKeys(factory.accountPage().profilePhoneNumberField);
+	Thread.sleep(2000);
 		sendText(factory.accountPage().profilePhoneNumberField, phoneValue);
 		logger.info("user updated Name and Phone values ");
 	}
