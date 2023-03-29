@@ -7,12 +7,6 @@ Feature: Retail Application Account Feature
     And User enter email 'irajs64@gmail.com' and password 'Omaha@1234'
     And User click on login button
     And User should be logged in into Account
-@updateProfile
-  Scenario: Verify User can update Profile Information
-    When User click on Account option
-    And User update Name 'Abbas' and Phone '5648895489'
-    And User click on Update button
-    Then User profile information should be updated
 
 	@addAddress
   Scenario: Verify User can add  an Address

@@ -18,13 +18,13 @@ Feature: TEK Retail Application SignIn feature
 
     Examples: 
       | email                     | password  |
-      | irajs64@gmail.com   			| Omaha@1234 |
-
+      | irajs64@gmail.com					| Omaha@1234 |
+     
 	@registerTest
   Scenario: Verify user can create an acount into Retail Website
     And User click on Create New Account button
     And User fill the signUp information with below data
       | name     | email | password  | confirmPassword |
-      | fullName | email | Omaha@123 | Omaha@123       |
+      | fullName | email | Omaha@1234| Omaha@1234       |
     And User click on SignUp button
     Then User should be logged into account page
